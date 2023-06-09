@@ -1,3 +1,8 @@
+# Checkout this Project Live on Devfolio
+https://devfolio.co/projects/github-user-finder-df4e
+# Live here
+https://ghuserfinder.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
