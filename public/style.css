@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+body {
+  background: linear-gradient(135deg, #c850c0, #4158d0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Heading Font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Content Font */
+p,
+span,
+div {
+  font-family: "Raleway", sans-serif;
+}
+/* UserFinder.css */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 16px;
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #374151;
+  margin-bottom: 24px;
+}
+
+.form {
+  margin-bottom: 16px;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
+  color: #374151;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6366f1;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4f46e5;
+}
+
+.repositories {
+  margin-top: 32px;
+}
+
+.repositories h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 16px;
+} */
+
+.repository {
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.repository h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.repository p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.no-repos {
+  font-size: 16px;
+  color: #6b7280;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #6366f1;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #4f46e5;
+}
